@@ -18,6 +18,11 @@ module.exports = {
     },
     ecmaVersion: 'latest',
   },
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
   plugins: ['react', '@typescript-eslint'],
   rules: {
     'react/jsx-uses-react': 'off',
